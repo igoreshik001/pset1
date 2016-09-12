@@ -14,6 +14,6 @@ int main(void)
     }
     while (minutes<=0);
     
-    printf("%i\n", minutes**bottles); //вывод, количество использованной воды
+    printf("%i\n", minutes*bottles); //вывод, количество использованной воды
 
 }
